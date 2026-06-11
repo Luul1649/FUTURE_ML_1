@@ -20,7 +20,7 @@ uploaded_file = st.sidebar.file_uploader(
 
 if uploaded_file:
 
-    df = pd.read_csv((r"C:\Users\hi\Downloads\sample superstore\Sample - Superstore.csv", encoding="latin1")
+    df = pd.read_csv(r"C:\Users\hi\Downloads\sample superstore\Sample - Superstore.csv", encoding="latin1")
 
     st.subheader("Dataset Preview")
     st.dataframe(df.head())
